@@ -13,18 +13,18 @@ module.exports = (theme) => ({
   DEFAULT: {
     css: [
       {
-        color: 'inherit',//theme('colors.gray.700', colors.gray[700]),
-        maxWidth: '65ch',
+        //color: 'inherit',//theme('colors.gray.700', colors.gray[700]),
+        //maxWidth: '65ch',
         '[class~="lead"]': {
-          color: 'inherit',//theme('colors.gray.600', colors.gray[600]),
+          //color: 'inherit',//theme('colors.gray.600', colors.gray[600]),
         },
         a: {
-          color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
+          //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
           textDecoration: 'underline',
           fontWeight: '500',
         },
         strong: {
-          color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
+          //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
           fontWeight: '600',
         },
         'ol[type="A"]': {
@@ -61,7 +61,7 @@ module.exports = (theme) => ({
           content: 'counter(list-item, var(--list-counter-style, decimal)) "."',
           position: 'absolute',
           fontWeight: '400',
-          color: 'inherit',//theme('colors.gray.500', colors.gray[500]),
+          //color: 'inherit',//theme('colors.gray.500', colors.gray[500]),
         },
         'ul > li': {
           position: 'relative',
@@ -69,7 +69,7 @@ module.exports = (theme) => ({
         'ul > li::before': {
           content: '""',
           position: 'absolute',
-          backgroundColor: 'inherit',//theme('colors.gray.300', colors.gray[300]),
+          //backgroundColor: 'inherit',//theme('colors.gray.300', colors.gray[300]),
           borderRadius: '50%',
         },
         hr: {
@@ -79,7 +79,7 @@ module.exports = (theme) => ({
         blockquote: {
           fontWeight: '500',
           fontStyle: 'italic',
-          color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
+          //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
           borderLeftWidth: '0.25rem',
           borderLeftColor: 'inherit',//theme('colors.gray.200', colors.gray[200]),
           quotes: '"\\201C""\\201D""\\2018""\\2019"',
@@ -91,38 +91,38 @@ module.exports = (theme) => ({
           content: 'close-quote',
         },
         h1: {
-          color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
+          //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
           fontWeight: '800',
         },
         'h1 strong': {
           fontWeight: '900',
         },
         h2: {
-          color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
+          //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
           fontWeight: '700',
         },
         'h2 strong': {
           fontWeight: '800',
         },
         h3: {
-          color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
+          //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
           fontWeight: '600',
         },
         'h3 strong': {
           fontWeight: '700',
         },
         h4: {
-          color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
+          //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
           fontWeight: '600',
         },
         'h4 strong': {
           fontWeight: '700',
         },
         'figure figcaption': {
-          color: 'inherit',//theme('colors.gray.500', colors.gray[500]),
+          //color: 'inherit',//theme('colors.gray.500', colors.gray[500]),
         },
         code: {
-          color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
+          //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
           fontWeight: '600',
         },
         'code::before': {
@@ -132,10 +132,10 @@ module.exports = (theme) => ({
           content: '"`"',
         },
         'a code': {
-          color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
+          //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
         },
         pre: {
-          color: 'inherit',//theme('colors.gray.200', colors.gray[200]),
+          //color: 'inherit',//theme('colors.gray.200', colors.gray[200]),
           backgroundColor: 'transparent',//theme('colors.gray.800', colors.gray[800]),
           overflowX: 'auto',
         },
@@ -164,7 +164,7 @@ module.exports = (theme) => ({
           marginBottom: em(32, 16),
         },
         thead: {
-          color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
+          //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
           fontWeight: '600',
           borderBottomWidth: '1px',
           borderBottomColor: 'inherit',//theme('colors.gray.300', colors.gray[300]),
