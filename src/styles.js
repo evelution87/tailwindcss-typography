@@ -20,8 +20,8 @@ module.exports = (theme) => ({
         },
         a: {
           //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
-          textDecoration: 'underline',
-          fontWeight: '500',
+          //textDecoration: 'underline',
+          //fontWeight: '500',
         },
         strong: {
           //color: 'inherit',//theme('colors.gray.900', colors.gray[900]),
